@@ -6,6 +6,7 @@ import com.ngb.projectzulu.common.core.CustomEntityManager;
 import com.ngb.projectzulu.common.core.DefaultProps;
 import com.ngb.projectzulu.common.core.ItemBlockManager;
 import com.ngb.projectzulu.common.core.terrain.FeatureGenerator;
+import com.ngb.projectzulu.common.mobs.config.entity.ConfigFoxDeclaration;
 import com.ngb.projectzulu.common.mobs.entitydefaults.AlligatorDeclaration;
 import com.ngb.projectzulu.common.mobs.entitydefaults.ArmadilloDeclaration;
 import com.ngb.projectzulu.common.mobs.entitydefaults.BearBlackDeclaration;
@@ -82,5 +83,6 @@ public class ProjectZulu_Mobs extends BaseModule {
                 new EagleDeclaration(), new HornbillDeclaration(), new PelicanDeclaration(), new MinotaurDeclaration(),
                 new HauntedArmorDeclaration(), new CentipedeDeclaration(), new FollowerDeclaration(),
                 new HorseRandomDeclaration(), new YellowFinchDeclaration());
+        manager.addEntity(new ConfigFoxDeclaration());
     }
 }

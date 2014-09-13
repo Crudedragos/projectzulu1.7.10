@@ -43,6 +43,7 @@ public class PacketNameSync extends PacketByteStream implements IMessageHandler<
         for (int i = 0; i < nameLength; i++) {
             nameChars[i] = buffer.readChar();
         }
+        new String(nameChars);
     }
 
     @Override
